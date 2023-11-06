@@ -20,7 +20,7 @@ body{
     .dropdown-menu{border:none; border-radius:0}
     .nav-item:hover> .dropdown-menu{display:block; left:0}
     .total-menu .mega-menu{top:65px;}
-
+    .dropdown-toggle::after {border:none; }
 
 
     .bg-white {
@@ -200,7 +200,6 @@ body{
        #recruitment2 .img-100{width:100%;}
        .img-logo{width:160px}
        .total-menu{display:none}
-       .hover-underline-animation { color: var(--bs-light);}
       }
       
       
@@ -240,7 +239,5 @@ body{
        footer a{font-size:11.5px}
        .img-logo{width:120px}
        .total-menu{display:none}
-       .hover-underline-animation { color: var(--bs-light);}
-       
     }
     
